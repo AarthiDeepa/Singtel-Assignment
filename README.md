@@ -16,4 +16,14 @@ Answer for 2a,2b,2c,2d:
 
 Q A-3 : Now how would you model a rooster?
 Answer for 3a,3b,3c: Implemented Junit test class: RoosterTest.java
-	
+
+Q A-4d)How do you keep the parrot maintainable? What if we need another parrot lives near a Duck? Or near a phone that rings frequently?
+
+Answer : Modeled parrot using Composition (Has-A relationship) contains interface. Here the parrot has a relationship with cat,dog,duck,rooster and phone.
+	Implemented Junit test class: ParrotTest.java
+
+Q B. Model fish as well as other swimming animals.
+
+Ans: For B1, B2, B3 
+Implemented Junit test class: ClownFishTest.java, SharkFishTest.java, DolphinTest.java
+
