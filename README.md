@@ -13,3 +13,7 @@ Q A-2 : Now, we have 2 special kinds of birds: the Duck and the Chicken... Can y
 
 Answer for 2a,2b,2c,2d: 
 	Implemented Junit test class: ChickenTest.java, DuckTest.java
+
+Q A-3 : Now how would you model a rooster?
+Answer for 3a,3b,3c: Implemented Junit test class: RoosterTest.java
+	
