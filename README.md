@@ -4,3 +4,12 @@ Answer: As per the code snippet provided in assignment pdf cannot support becaus
 		
 Q A-1a : How did you unit test it?
 Answer:	Junit test class: SolutionTest.java
+
+Q A-1b :How did you optimize the code for maintainability? 
+Answer: To make code maintainable I have created interface and abstract class to implement fly(), walk(), sing(), swim() methods.
+
+
+Q A-2 : Now, we have 2 special kinds of birds: the Duck and the Chicken... Can you implement them to make their own special sound?
+
+Answer for 2a,2b,2c,2d: 
+	Implemented Junit test class: ChickenTest.java, DuckTest.java
