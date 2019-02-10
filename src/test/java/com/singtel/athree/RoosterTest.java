@@ -4,10 +4,11 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.singtel.behavior.impl.Bird;
 import com.singtel.behavior.impl.bird.Rooster;
 
 public class RoosterTest {
-	Rooster rooster;
+	Bird rooster;
 	
 	@Before
 	public void setUp() throws Exception{
@@ -26,4 +27,13 @@ public class RoosterTest {
 		Assert.assertEquals(true, rooster.sing());
 	}
 	
+	@Test
+	public void flyTest() {
+		Assert.assertEquals(true, rooster.fly());
+	}
+	
+	@Test
+	public void swimTest() {
+		Assert.assertEquals(false, rooster.swim());
+	}
 }

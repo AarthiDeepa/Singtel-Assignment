@@ -1,13 +1,15 @@
 package com.singtel.behavior.impl.bird;
 
+import com.singtel.behavior.impl.Bird;
 import com.singtel.constant.SpeciesConstant;
 
 /*
  * Modeled a Rooster without using inheritance
  * 
+ * Later modified to extend Bird class to support model with Parrot
  */
-public class Rooster {
-	// Rooster is related to chicken using composition "has-a" relationship
+public class Rooster extends Bird {
+	// Rooster is related to chicken using "has-a" relationship
 	private Chicken chicken;
 	private String gender;
 	
@@ -15,6 +17,7 @@ public class Rooster {
 		this.gender = gender;
 	}
 	
+	@Override
 	public boolean sing() {
 		if(gender.equalsIgnoreCase(SpeciesConstant.FEMALE)) {
 			chicken = new Chicken();
@@ -24,4 +27,14 @@ public class Rooster {
 		return true;
 	}
 
+	@Override
+	public boolean fly() {
+		return true;
+	}
+
+	@Override
+	public boolean swim() {
+		return false;
+	}
+	
 }
