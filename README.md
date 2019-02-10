@@ -31,3 +31,7 @@ Q D.Can you optimize your model to account for the metamorphosis from caterpilla
 
 Answer : We can model caterpillar and butterfly using Composition/Aggregation - there is a relationship between caterpillar and butterfly since Caterpillar is transforming to butterfly.
 Implemented Junit test class: ButterflyTest.java, CaterpillarTest.java 
+
+Q E: Can you share the code to count: a. how many of these animals can fly? b. how many of these animals can walk? c. how many of these animals can sing? d. how many of these animals can swim?
+
+Answer : Implemented Junit test class: CountingSpeciesTest.java
