@@ -27,3 +27,7 @@ Q B. Model fish as well as other swimming animals.
 Ans: For B1, B2, B3 
 Implemented Junit test class: ClownFishTest.java, SharkFishTest.java, DolphinTest.java
 
+Q D.Can you optimize your model to account for the metamorphosis from caterpillar to butterfly?
+
+Answer : We can model caterpillar and butterfly using Composition/Aggregation - there is a relationship between caterpillar and butterfly since Caterpillar is transforming to butterfly.
+Implemented Junit test class: ButterflyTest.java, CaterpillarTest.java 
